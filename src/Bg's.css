@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Profile picture start */
+.dp {
+   background: -webkit-linear-gradient(90deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 72%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(-195deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 70%, rgba(0,0,0,1) 95%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(0deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 33%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%), -webkit-linear-gradient(-145deg, rgba(100,100,100,0.2) 0, rgba(100,100,100,0.2) 44%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%), url("https://enjoycss.com/bg-img/custom/14556-1iwylm8.a478.jpg");
+  background: -moz-linear-gradient(0deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 72%, rgba(0,0,0,1) 100%), -moz-linear-gradient(285deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 70%, rgba(0,0,0,1) 95%, rgba(0,0,0,1) 100%), -moz-linear-gradient(90deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 33%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%), -moz-linear-gradient(235deg, rgba(100,100,100,0.2) 0, rgba(100,100,100,0.2) 44%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%), url("https://enjoycss.com/bg-img/custom/14556-1iwylm8.a478.jpg");
+  background: linear-gradient(0deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 72%, rgba(0,0,0,1) 100%), linear-gradient(285deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 70%, rgba(0,0,0,1) 95%, rgba(0,0,0,1) 100%), linear-gradient(90deg, rgba(100,100,100,0) 0, rgba(100,100,100,0) 33%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%), linear-gradient(235deg, rgba(100,100,100,0.2) 0, rgba(100,100,100,0.2) 44%, rgba(0,0,0,1) 85%, rgba(0,0,0,1) 100%), url("https://enjoycss.com/bg-img/custom/14556-1iwylm8.a478.jpg");
+  background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%, 56% 25%;
+  -webkit-background-size: auto auto, cover, cover;
+  background-size: auto auto, cover, cover;
+}
+/* Profile picture start */
+
+/* Projects background start */
+.bgc {
+    background: url("https://images.pexels.com/photos/5632398/pexels-photo-5632398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+.bgc2 {
+    background: url("https://images.pexels.com/photos/3299/postit-scrabble-to-do.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+.bgc3 {
+    background: url("https://images.pexels.com/photos/472311/pexels-photo-472311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+.bgc4 {
+    background: url("https://images.pexels.com/photos/163185/old-retro-antique-vintage-163185.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+.bgc5 {
+    background: url("https://images.pexels.com/photos/6193086/pexels-photo-6193086.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+.bgc6 {
+    background: url("https://images.pexels.com/photos/1154775/pexels-photo-1154775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+.bgc7 {
+    background: url("https://images.pexels.com/photos/3400795/pexels-photo-3400795.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+
+.bg20 {
+  background: url("https://images.wallpaperscraft.com/image/single/tree_silhouette_night_202532_5616x3744.jpg");
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Projects background start */
+
+/* Header background start */
+.bg1 {
+   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(-180deg, rgba(0,0,0,0) 0, rgba(0,0,0,1) 100%), url("https://images.wallpaperscraft.com/image/single/girl_hat_bw_132197_1920x1080.jpg");
+  background: -moz-linear-gradient(270deg, rgba(0,0,0,0) 0, rgba(0,0,0,1) 100%), url("https://images.wallpaperscraft.com/image/single/girl_hat_bw_132197_1920x1080.jpg");
+  background: linear-gradient(270deg, rgba(0,0,0,0) 0, rgba(0,0,0,1) 100%), url("https://images.wallpaperscraft.com/image/single/girl_hat_bw_132197_1920x1080.jpg");
+  background-repeat: repeat, no-repeat;
+  background-position: 50% 100%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto, cover;
+  background-size: auto auto, cover;
+  background-attachment: fixed;
+}
+/* Header background end */
